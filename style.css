@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(
+    165deg,
+    hsl(330, 100%, 45.1%) 0%,
+    hsl(327.59, 88.47%, 47.03%) 6.4%,
+    hsl(324.66, 78.11%, 48.6%) 12.2%,
+    hsl(320.86, 69.6%, 49.53%) 17.5%,
+    hsl(316.08, 62.03%, 49.99%) 22.5%,
+    hsl(310.01, 55.13%, 50.06%) 27.3%,
+    hsl(302.13, 48.27%, 49.77%) 32%,
+    hsl(292.54, 48.74%, 52.06%) 36.9%,
+    hsl(282.94, 52.16%, 54.91%) 42.1%,
+    hsl(273.3, 55.54%, 57.49%) 47.8%,
+    hsl(263.46, 58.8%, 59.8%) 54.1%,
+    hsl(253.2, 61.85%, 61.85%) 61.1%,
+    hsl(242.14, 64.57%, 63.66%) 69.1%,
+    hsl(231.12, 70.32%, 61.18%) 78.1%,
+    hsl(221.73, 75.87%, 56.5%) 88.3%,
+    hsl(210, 100%, 45.1%) 100%
+  );
+  font-family: "Roboto", sans-serif;
+}
+
+.input-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+input {
+  width: 60%;
+  height: 100px;
+  text-align: center;
+  font-size: 60px;
+  border: 1px solid black;
+  background-color: cornsilk;
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+}
+
+label {
+  font-size: 50px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+input:focus {
+  border: 2px solid black;
+}
+
+.social-media-wrapper {
+  text-align: right;
+  position: fixed;
+  right: 0;
+  top: 0;
+  padding-right: 20px;
+  padding-top: 20px;
+  display: flex;
+}
+
+.twitter {
+  padding-right: 10px;
+}
+
+.social-icons {
+  color: black;
+}
+
+.social-icons a:visited {
+  color: black;
+}
+
+.social-icons a:hover {
+  color: red;
+}
