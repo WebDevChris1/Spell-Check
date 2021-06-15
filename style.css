@@ -88,5 +88,5 @@ input:focus {
 }
 
 .social-icons a:hover {
-  color: red;
+  opacity: 0.5;
 }
